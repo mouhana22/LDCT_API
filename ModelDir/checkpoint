@@ -1,0 +1,6 @@
+model_checkpoint_path: "iter_20000_psnr+ssim=71.2"
+all_model_checkpoint_paths: "iter_4000_psnr+ssim=68.4"
+all_model_checkpoint_paths: "iter_8000_psnr+ssim=72.5"
+all_model_checkpoint_paths: "iter_12000_psnr+ssim=73.4"
+all_model_checkpoint_paths: "iter_16000_psnr+ssim=73.1"
+all_model_checkpoint_paths: "iter_20000_psnr+ssim=71.2"
