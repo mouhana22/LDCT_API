@@ -1,11 +1,13 @@
 import threading
 from flask import Flask, request, jsonify, send_file
+from flask_cors import CORS
 import os
 from werkzeug.utils import secure_filename
 import Loader
 from dicompylercore import dicomparser
 
 app = Flask(__name__)
+CORS(app)
 
 UPLOAD_FOLDER = './DataInput/'
 
