@@ -10,3 +10,5 @@ pydicom==2.4.4
 scipy==1.13.0
 scikit-image==0.18.3
 tensorflow==2.16.1
+flask==3.0.3
+dicompyler-core==0.5.6
