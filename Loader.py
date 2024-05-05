@@ -45,7 +45,7 @@ def Loader():
 
     tf.flags.DEFINE_bool('is_convert',False,'is_convert')
 
-    tf.flags.DEFINE_integer('mn',4, 'all model checkpoint paths index')
+    tf.flags.DEFINE_integer('mn',3, 'all model checkpoint paths index')
     tf.flags.DEFINE_integer('fn',4000, 'test_output_folder_name')
     tf.flags.DEFINE_bool('is_single','False','is_single')
     tf.flags.DEFINE_string('input_file','input_file.png','if is_single==True, convert_input_file_dir')
